@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Our Lab Members</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f7fa;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      color: #333;
+    }
+    header {
+      background: #9d2235;
+      color: white;
+      padding: 2rem 1rem;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    main {
+      padding: 2rem 1rem;
+    }
+    .member-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 2rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .member {
+      background: white;
+      padding: 1rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .member img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .member h3 {
+      margin: 0.5rem 0 0;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 2rem;
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      color: white;
+      background: #9d2235;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+    .btn:hover {
+      background: #005a9e;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Our Lab Members</h1>
+    <p>Meet the people behind our research</p>
+  </header>
+
+  <main>
+    <div class="member-grid">
+      <!-- Example Member -->
+      <div class="member">
+        <a href="https://www.umass.edu/natural-sciences/about/directory/alissa-nolden" target="_blank">
+          <h3>Alissa.A.Nolden</h3>
+        </a>
+        <h3>Professor<h3>
+      </div>
+
+      <div class="member">
+        <a href="https://www.umass.edu/food-science/about/directory/james-makame" target="_blank">
+          <h3>James Makame<h3>
+        </a>
+        <h3>Post-doc Faculty</h3>
+      </div>
+      
+      <div class="member">
+        <a href="https://www.umass.edu/food-science/about/directory/sasi-tansaraviput" target="_blank">
+          <h3>Sasi Tansaraviput<h3>
+        </a>
+        <h3>PhD Student</h3>
+      </div>
+    </div>
+
+    <!-- Back button -->
+    <a href="index.html" class="btn">Back to Recruitment</a>
+  </main>
+</body>
+</html>
